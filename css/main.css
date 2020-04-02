@@ -1,0 +1,33 @@
+body { 
+    background-color :  #cde8f9;
+    color: red;
+}
+
+h1 {
+    font-family: 'Sigmar One', cursive;
+    color: black;
+    font-size: 200px;
+    text-align: center;
+}
+
+h2 {
+    color: rgb(0, 4, 81);
+    font-size: 75px;
+    text-align: right;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.pink-text {
+    color: pink;
+}
+
+.article-title{
+    font-family: 'Sigmar One', cursive;
+    text-align: centre; 
+}
+
+#big-text{
+    font-size: 150px;
+}

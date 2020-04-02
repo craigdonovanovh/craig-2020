@@ -1,0 +1,74 @@
+<!DOCTYPE html><!-- The html tag is the root element of the page. All other elements must be descendants of this element. -->
+<html>
+  <!-- The HEAD is where the "thinking" information of a page lives -->
+  <!-- Its where we inject exteneral sources needed for our page to work properly -->
+  <!-- We can link CSS, Javascript, fonts and so much more -->
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Sigmar+One&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+    <!-- The title is the text displayed on our browser tab -->
+    <title>HTML Intro</title>
+  </head>  <!-- The body element represents the content of an HTML document. There can be only one <body> element in a document. -->
+  <body>    <!--The header element represents introductory content, typically a group of introductory or navigational aids. -->
+    <header>
+      <!-- Navs are used for navbars, and usually wrap around styled lists -->
+      <nav>
+        <!-- LISTS -->
+        <!-- ordered -->
+        <ol>
+          <li>Number 1</li>
+          <li>Number 2</li>
+          <li>Number 3</li>
+        </ol>
+        <!-- unordered -->
+        <ul>
+          <li>Bullet 1</li>
+          <li>Bullet 2</li>
+          <li>Bullet 3</li>
+        </ul>
+      </nav>
+    </header>    <!-- These are comments. Anything written between these arrows is ignored by the browser. -->
+    <!-- Try to remove the arrows, save the file, and refresh the page. YOu should see this text. -->    <!-- The main tag usually consists of content that is the directly related to the document's main content. -->
+    <main>      <!-- The div element is a generic container for content. These are widely used on a page for structuring content. -->
+      <div>        <!-- HEADERS -->
+        <h1>Header one</h1>
+
+        <h2>Header two A</h2>
+        <h2 class="pink-text">Header two B</h2>
+        <h2>Header two C</h2>
+
+        <h3 id="big-text">Header three</h3>
+        <h4 class="pink-text">Header four</h4>
+        <h5 class="article-title pink-text">Header five</h5>
+        <h6>Header six</h6>        <!-- The p tag represents a paragraph of text. -->
+        <p class="pink-text">
+          This is an example paragraph tag. If you right click the browser
+          window and select 'Inspect', you should be able to see your code in
+          the developer tools!
+        </p>        <!-- The span tag is usually used for phrasing content. -->
+        <span>🎉This is an example span! 🎉</span>        <!-- The hr tag represents a thematic break between elements on the page. -->
+        <!-- Notice that you do not need a closing tag here. Elements such as this are known as self-closing. -->
+        <hr />        <!-- The br tag produces a line break in text. -->
+        <p>
+          Text that demonstrates a break here -> <br />
+          Notice this text appears on a new line
+        </p>
+      </div>      <!-- The aside tag represents content indirectly related to the document's main content. -->
+      <aside>        <!-- IMAGES -->
+        <!-- absolute path -->
+        <img
+          src="https://www.w3schools.com/images/picture.jpg"
+          alt="Mountain"
+        />        <!-- relative path -->
+        <img src="./img/pic3.jpeg" alt="Pic 3" />
+      </aside>
+    </main>    <!-- The footer typically contains information about the author of the section, copyright data or links to related documents. -->
+    <footer>      <!-- LINKS -->
+      <!-- absolute path -->
+      <a href="https://example.com/">Example absolute link</a>      <!-- relative path -->
+      <!-- Adding the target="_blank" attribute opens links in a new tab -->
+      <a href="./pages/page2.html" target="_blank">Example relative link</a>
+    </footer>
+  </body>
+</html>
